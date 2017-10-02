@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { DateInput } from '@blueprintjs/datetime';
+import { Popover } from '@blueprintjs/core';
 
 describe('InputDate', () => {
   it('renders', () => {
     const component = renderer.create(
-      <DateInput />,
+      <Popover><div>Test</div></Popover>,
     );
 
     const tree = component.toJSON();

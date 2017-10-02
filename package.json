@@ -11,7 +11,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-core": "^6.26.0",
     "babel-jest": "^21.2.0",
-    "@blueprintjs/datetime": "^1.22.0",
+    "@blueprintjs/core": "^1.22.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1",
