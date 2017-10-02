@@ -1,0 +1,32 @@
+{
+  "name": "blueprint-issue-1643",
+  "version": "1.0.0",
+  "description": "Simple repo to reproduce blueprint issue 1643",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn jest -i"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "@blueprintjs/datetime": "^1.22.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "jest": "^21.0.2",
+    "react-addons-css-transition-group": "^15.6.2"
+  },
+  "author": "Tobias Lengsholz",
+  "license": "MIT",
+  "jest": {
+    "testRegex": "\\.js$",
+    "roots": [
+      "<rootDir>"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
